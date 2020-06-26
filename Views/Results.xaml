@@ -1,0 +1,19 @@
+﻿<Window x:Class="Views.Results"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Views"
+        mc:Ignorable="d"
+        Title="Results" Height="450" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="InfoText" HorizontalAlignment="Left" Margin="253,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="265" Width="207"><Run Text="Results!"/></TextBlock>
+        <Label x:Name="KeyText" Content="Key :" HorizontalAlignment="Left" Margin="30,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ConfText" Content="Confidence rate : " HorizontalAlignment="Left" Margin="30,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="RESULTS" HorizontalAlignment="Left" Margin="193,39,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24" FontFamily="Agency FB"/>
+
+    </Grid>
+</Window>

@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace Views
 {
     /// <summary>
@@ -37,6 +36,15 @@ namespace Views
             usr = UsernameText.Text;
             pswd = PswdText.Password;
             // Hna ndiro login hamlik username w password!
+            bool logged;
+            //aprés avoir vérifié : 
+            logged = true;
+            if (logged)
+            {
+                Menu menu = new Menu();
+                menu.Show();
+                this.Hide();
+            }
         }
 
         private void Entrer(object sender, KeyEventArgs e)
